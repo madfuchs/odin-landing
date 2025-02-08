@@ -1,0 +1,154 @@
+/* 
+styles:
+- red outline for items
+- green outline for containers
+*/
+
+
+/* globals */
+
+/* * {
+    padding: 2px;
+    margin: 10px;
+} */
+
+.header, .topper, .main, .lower, .footer {
+    min-width: 768px;
+    max-width: 1920px;
+}
+
+/* globals end */
+
+
+/* headers */
+
+.header{ /* container */
+    /* outline: 3px solid green; */
+    display: flex;
+    background-color: #1F2937 ;
+    justify-content: space-between;
+    height: 200px;
+}
+
+
+.header h1{ /* item */
+    /* outline: 1px solid red; */
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Roboto';
+    text-align: center;
+    color: #F9FAF8;
+}
+
+#header, #nav{
+    height: 50px;
+}
+
+#header{ /* item */
+    /* outline: 1px solid red; */
+}
+
+#nav{ /* item */
+    /* outline: 1px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+/* headers end */
+
+/* toppers */
+.topper{ /* container */
+    /* outline: 3px solid green; */
+    display: flex;
+    background-color: #252326 ;
+    justify-content: space-between;
+    align-items: start;
+    height: 400px;
+}
+
+.topper #topper h2{ /* item */
+    /* outline: 1px solid red; */
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.topper #topper p{ /* item */
+    /* outline: 1px solid red; */
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.topper #main-image { /* item */
+    /* outline: 1px solid red; */
+}
+
+#main-image img { /* item */
+    width: 100px;
+    height: 100px;
+}
+
+/* toppers end */
+
+/* mains */
+.main{ /* container */
+    /* outline: 3px solid green; */
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.main div{/* item */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.main div h3{ 
+    text-align: center;
+    border: 3px solid rgb(4, 85, 85);
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+}
+
+.main div p{
+    text-align: center;
+}
+
+/* mains end */
+
+/* lowers */
+.lower{ /* container */
+    /* outline: 3px solid green; */
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+
+}
+
+.lower p{ /*item*/
+font-style: italic;
+font-weight: lighter;
+font-size: 36px;
+color: #1F2937;
+}
+/* lowers end */
+
+/* footers */
+.footer{ /* container */
+    /* outline: 3px solid green; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer p{
+    flex: auto;
+}
+/* footers end */
