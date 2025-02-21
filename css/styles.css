@@ -6,12 +6,6 @@ styles:
 
 
 /* globals */
-
-/* * {
-    padding: 2px;
-    margin: 10px;
-} */
-
 .header, .topper, .main, .lower, .footer {
     min-width: 768px;
     max-width: 1920px;
@@ -42,6 +36,9 @@ styles:
 
 #header, #nav{
     height: 50px;
+    padding: 15px;
+    margin: 10px;
+    
 }
 
 #nav{ /* item */
@@ -49,7 +46,6 @@ styles:
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 0 20px;
 }
 
 /* headers end */
@@ -64,12 +60,19 @@ styles:
     height: 400px;
 }
 
+#topper{
+    padding: 15px;
+    margin: 10px;
+    
+}
+
 .topper #topper h2{ /* item */
     /* outline: 1px solid red; */
     font-family: 'Roboto';
     font-size: 48px;
     font-weight: 900;
     color: white;
+    
 }
 
 .topper #topper p{ /* item */
