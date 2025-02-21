@@ -44,10 +44,6 @@ styles:
     height: 50px;
 }
 
-#header{ /* item */
-    /* outline: 1px solid red; */
-}
-
 #nav{ /* item */
     /* outline: 1px solid red; */
     display: flex;
@@ -83,15 +79,22 @@ styles:
     color: #E5E7EB;
 }
 
-.topper #main-image { /* item */
-    /* outline: 1px solid red; */
-}
-
 #main-image img { /* item */
     width: 100px;
     height: 100px;
 }
 
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+}
 /* toppers end */
 
 /* mains */
